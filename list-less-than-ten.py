@@ -12,3 +12,13 @@ print([aa for aa in a])
 # it be will print line by line
 for aa in a:
     print(aa)
+
+#### enter the user input & create new list
+
+num = int(input("choose the number"))
+
+new_list = []
+for i in a:
+    if i < num:
+        new_list.append(i)
+        print(new_list)
